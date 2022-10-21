@@ -1,0 +1,106 @@
+img {
+  width: 80vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: indigo;
+  font-size: 4vw;
+  font-family: 'Avenir', sans-serif;
+  text-align: left;
+  padding-left: 165px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: indigo;
+  font-size: 2.5vw;
+  font-family: 'Avenir', sans-serif;
+  text-align: left;
+  padding-left: 165px;
+  padding-right: 50px;
+}
+
+p {
+  color: black;
+  font-size: 1.4vw;
+  font-family: 'Avenir', sans-serif;
+  padding-right: 180px;
+  padding-left: 170px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  color: black;
+  font-size: 1.4vw;
+  font-family: 'Avenir', sans-serif;
+  padding-right: 15px;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+}
+
+ul.a {
+  list-style-type: circle;
+  padding-left: 230px;
+  padding-right: 270px;
+}
+
+table {
+  width:77%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border: 2px solid indigo;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  font-family: 'Avenir', sans-serif;
+  font-size: 1.3vw;
+}
+
+table.names tr:nth-child(even) {
+  background-color: lavender;
+}
+
+table.names tr:nth-child(odd) {
+  background-color:#fff;
+}
+
+table.names th {
+  background-color: indigo;
+  color: white
+}
+
+.container .btn {
+  position: absolute;
+  top: 637vw;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: indigo;
+  color: white;
+  font-size: 1.7vw;
+  padding: 2.2vw 2.7vw;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Avenir', sans-serif;
+  font-weight: 500;
+  border-radius:2em;
+}
+
+.container .btn:hover {
+  background-color: rgb(209, 209, 209);
+  color: indigo;
+}

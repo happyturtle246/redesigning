@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>Responsive Redesign</title>
+	</head>
+	<body>
+		<h1>Responsive Redesign: Revamping Toronto Cupcake's Webpage</h1>
+		<p>Having lived in Toronto when I was younger, I am properly familiar with 
+			the quality of the Toronto Cupcakes’ pastries. In fact, I immediately recognized 
+			their name and logo as soon as I found their website. Thus, I chose to redesign 
+			this page in an effort to lessen the gap between the quality of the bakery’s goods 
+			and that of its web interface.
+		</p>
+
+		<img src="TC.png"/>
+
+		<p>Seen above is the home screen for <a href="https://torontocupcake.com/index.html">Toronto Cupcake's website</a>. A quick
+			scroll also reveals some simple text welcoming the user and briefly describing the bakery before revealing bottom navigation
+			menu containing all of the elements contained in the hamburger menu above.
+		</p>
+
+		<h2>Identifying Usability Problems: an Initial Look</h2>
+
+		<table class="names">
+			<tr>
+				<th>UI Attribute</th>
+				<th>Definition/Question</th> 
+				<th>Findings</th>
+			</tr>
+			<tr>
+				<td>Learnability</td>
+				<td>How easily might users accomplish basic tasks upon their first encounter with the interface?</td>
+				<td><ul>
+					<li>The button to begin ordering online is not immediately obvious</li>
+					<li>The website contains several interesting, up-to-date pages, but the buttons 
+						to navigate to them are relatively hidden (bottom of the page with the same text as the body)</li>
+					<li>A pixelated image (which does not even properly display the cupcakes) takes up most of the initial 
+						screen, making a user’s next navigation steps unclear</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Memorability</td>
+				<td>How easily might users reestablish proficiency with the interface when returning to it after some period of time without using it?</td>
+				<td><ul>
+					<li>The Cart page lacks photos for clarity, which could create confusion after a while without using the interface</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Efficiency</td>
+				<td>How quickly might users be able to perform tasks once they’ve learned the interface?</td>
+				<td><ul>
+					<li>Assuming proficiency, a user would be able to interact with the interface decently, though it is still visually clunky and unformatted</li>
+				</ul></td>
+			</tr>
+		</table>
+
+		<h2>Evaluating Accessibility</h2>
+
+			<p>The WAVE Web Accessibility Evaluation Tool is helpful for understanding the accessibility 
+				of web content—a crucial consideration when it comes to analyzing the strengths and faults of 
+				any interface. The following are some of the findings: </p>
+
+				<ul class="a">
+					<li>After running Toronto Cupcakes’ website through the tool, <b>8 cases of alternative text</b> 
+						were found, which appears to be positive at first, but a closer look reveals that the 
+						website’s use of alt text is undetailed and thus relatively unhelpful (e.g. “Toronto Cupcake 
+						logo” as opposed to a description of the logo).</li>
+					<li><b>2 redundant links</b> were identified, as well as a <b>device-dependent event handler</b>, 
+						referring to the hamburger menu in the upper left-hand corner.</li>
+					<li>However, the tool also identified <b>0 contrast errors</b>, which makes the site well suited for 
+						the visually imapaired.</li>
+				</ul>
+				
+				<h2>The Redesign: Low Fidelity Wireframing</h2>
+
+				<p>To begin the redesigning process, I created three lo-fi wireframes (desktop, mobile, and tablet), establishing
+					the elemental layout of the new webpage and annotating the ways in which it will solve the problems identified in the original home page. 
+				</p>
+
+				<img src="lofi1.png"/>
+				<img src="lofi2.png"/>
+				<img src="lofi3.png"/>
+
+				<h2>Hi-Fi Prep</h2>
+
+			<p>Before created the high-fidelity wireframes with which I would guide the implementation of the revamped
+				webpage, I organized my ideas into a <b>visual design style guide</b>, as seen below:
+			</p>
+
+			<img src="styleguide.png"/>
+
+			<h2>High Fidelity Prototyping & the Final Product</h2>
+
+			<p>Using all of the findings and ideas listed above, I ultimately designed <b>three high fidelity prototypes</b> 
+				(for three screen sizes) and a <a href="https://happyturtle246.github.io/cupcakes/">final webpage</a> for the home screen of Toronto Cupcake.
+			</p>
+
+			<img src="hifi1.png"/>
+			<img src="hifi2.png"/>
+			<img src="hifi3.png"/>
+
+			<div class="container">
+				<a href="https://happyturtle246.github.io/cupcakes/" button class="btn"> Revamped webpage</button>
+			</div>
+
+			<img src="break.png"/>
+
+				
+	</body>
+</html>
